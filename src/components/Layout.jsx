@@ -3,8 +3,10 @@ import Nav from './nav/Nav'
 
 function Layout() {
   return (
-    <div>
-        <Nav />
+    <div className='bg-gray-700'>
+       <div className="p-3">
+         <Nav />
+       </div>
     </div>
   )
 }
