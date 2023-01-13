@@ -2,6 +2,7 @@ import React from 'react';
 import "./chat.css"
 import circle from "../../images/circle.svg";
 import down from "../../images/down.svg";
+import check from "../../images/check.svg";
 
 
 function Chat() {
@@ -17,7 +18,7 @@ function Chat() {
             <small>12:30 pm</small>
         </div>
         <div className="flex">
-            <p className=' truncate'>hey there i am using  whatsap hey there i am using  whatsap</p>
+            <p className=' flex items-center truncate'><img className="h-4 pr-2 text-red-300" src={check} alt="" /> hey there i am using  whatsap hey there i am using  whatsap</p>
             <div className=' flex hidden hover:visible '>
               <img className={iconstyle} src={circle} alt="circle" />
               <img className={iconstyle} src={down} alt="circle" />

@@ -1,0 +1,8 @@
+.dropd{
+    cursor: pointer;
+}
+
+.dropd:hover{
+    display: none;
+}
+
